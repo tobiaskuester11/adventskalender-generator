@@ -1,0 +1,16 @@
+# Persoenliche Fotos - nie committen
+/Quellfotos/*
+!/Quellfotos/.gitkeep
+/Adventskalender_Fotos.png
+
+# Build-Cache (wird bei jedem Lauf neu erzeugt)
+/scripts/layout.json
+/scripts/numbers.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+.DS_Store
